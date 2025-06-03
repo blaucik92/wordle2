@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         ET4 = findViewById(R.id.ET4);
         ET5 = findViewById(R.id.ET5);
 
-        btnPruefen.setOnClickListener(this);
+//        btnPruefen.setOnClickListener(this);
 
 
 
@@ -44,11 +44,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @Override
-    public void onClick(EditText ET1, EditText ET2 )
-    {
-
-    }
+//    @Override
+//    public void onClick(EditText ET1, EditText ET2 )
+//    {
+//
+//    }
 
 
 }
