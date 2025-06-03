@@ -15,9 +15,9 @@
 
         <TableLayout
             android:id="@+id/tbllayout"
-            android:layout_width="367dp"
-            android:layout_height="272dp"
-            app:layout_constraintBottom_toTopOf="@+id/btn"
+            android:layout_width="372dp"
+            android:layout_height="401dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnPruefen"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -31,31 +31,48 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:capitalize="characters" />
+                    android:maxLength="1"
+                    android:textAllCaps="true"
+                    android:textColorLink="#9C27B0"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    />
 
                 <EditText
                     android:id="@+id/ET2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:maxLength="1"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:maxLength="1"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:maxLength="1"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:maxLength="1"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
             </TableRow>
 
 
@@ -69,7 +86,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:clickable="true"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET7"
@@ -77,7 +96,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:clickable="true"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET8"
@@ -85,7 +106,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:clickable="true"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET9"
@@ -93,7 +116,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:clickable="true"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET10"
@@ -101,7 +126,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:clickable="true"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
             </TableRow>
 
 
@@ -114,35 +141,45 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET12"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET13"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET14"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET15"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
             </TableRow>
 
 
@@ -155,35 +192,45 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET17"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET18"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET19"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET20"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
             </TableRow>
 
 
@@ -196,35 +243,45 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET22"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET23"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET24"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET25"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
             </TableRow>
 
 
@@ -237,43 +294,53 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET27"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET28"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET29"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
 
                 <EditText
                     android:id="@+id/ET30"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:enabled="false" />
+                    android:enabled="false"
+                    android:maxLength="1"
+                    android:textSize="34sp" />
             </TableRow>
         </TableLayout>
 
         <Button
-            android:id="@+id/btn"
+            android:id="@+id/btnPruefen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Überprüfen"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
