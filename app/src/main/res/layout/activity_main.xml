@@ -10,8 +10,14 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TableLayout
             android:id="@+id/tbllayout"
@@ -31,18 +37,22 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
                     android:textAllCaps="true"
-                    android:textColorLink="#9C27B0"
                     android:textSize="34sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
                     android:textSize="34sp"
                     android:textStyle="bold" />
@@ -52,6 +62,9 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
                     android:textSize="34sp"
                     android:textStyle="bold" />
@@ -61,6 +74,9 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
                     android:textSize="34sp"
                     android:textStyle="bold" />
@@ -70,6 +86,9 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
                     android:textSize="34sp"
                     android:textStyle="bold" />
@@ -87,8 +106,12 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET7"
@@ -97,8 +120,12 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET8"
@@ -107,8 +134,12 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET9"
@@ -117,8 +148,12 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET10"
@@ -127,8 +162,12 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
             </TableRow>
 
 
@@ -142,8 +181,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET12"
@@ -151,8 +194,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET13"
@@ -160,8 +207,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET14"
@@ -169,8 +220,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET15"
@@ -178,8 +233,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
             </TableRow>
 
 
@@ -193,8 +252,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET17"
@@ -202,8 +265,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET18"
@@ -211,8 +278,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET19"
@@ -220,8 +291,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET20"
@@ -229,8 +304,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
             </TableRow>
 
 
@@ -244,8 +323,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET22"
@@ -253,8 +336,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET23"
@@ -262,8 +349,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET24"
@@ -271,8 +362,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET25"
@@ -280,8 +375,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
             </TableRow>
 
 
@@ -295,8 +394,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET27"
@@ -304,8 +407,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET28"
@@ -313,8 +420,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET29"
@@ -322,8 +433,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/ET30"
@@ -331,8 +446,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:enabled="false"
+                    android:foreground="@android:drawable/button_onoff_indicator_off"
+                    android:foregroundGravity="fill_horizontal|bottom"
+                    android:foregroundTint="#949494"
                     android:maxLength="1"
-                    android:textSize="34sp" />
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
             </TableRow>
         </TableLayout>
 
@@ -345,5 +464,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tbllayout" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

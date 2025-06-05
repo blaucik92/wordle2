@@ -1,8 +1,10 @@
 package informatik.campus.wordle;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,7 +12,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+/*
+-TODO
+-- Array z haslami
+-- rozczlonkowanie arraya na piec liter zeby wszystko sprawdzic
+-- sprawdzanie hasla
+-- zmiana widocznosci na kolejny wiersz
+-- moze jak sie uda i nie bedzie zbyt skomplikowane po wpisaniu jeden litery od razu przeskakuje dalej
+*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,22 +28,19 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        EditText ET1;
-        EditText ET2;
-        EditText ET3;
-        EditText ET4;
-        EditText ET5;
-
-        Button btnPruefen;
+        EditText ET1 = findViewById(R.id.ET1);
+        EditText ET2 = findViewById(R.id.ET2);
+        EditText ET3 = findViewById(R.id.ET3);
+        EditText ET4 = findViewById(R.id.ET4);
+        EditText ET5 = findViewById(R.id.ET5);
 
 
-        ET1 = findViewById(R.id.ET1);
-        ET2 = findViewById(R.id.ET2);
-        ET3 = findViewById(R.id.ET3);
-        ET4 = findViewById(R.id.ET4);
-        ET5 = findViewById(R.id.ET5);
 
-//        btnPruefen.setOnClickListener(this);
+        Button btnPruefen = findViewById(R.id.btnPruefen);
+
+
+
+        btnPruefen.setOnClickListener(this);
 
 
 
@@ -44,11 +51,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-//    @Override
-//    public void onClick(EditText ET1, EditText ET2 )
-//    {
-//
-//    }
 
+    @Override
+    public void onClick(View v) {
 
+        String dziala = "dziala";
+
+    }
 }
