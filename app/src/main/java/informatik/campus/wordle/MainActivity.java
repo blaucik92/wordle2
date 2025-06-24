@@ -78,13 +78,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         // Hasla oraz losowanie hasla
 
-        String[] naturWorter = {
-                "WIESE", "BLUME", "ERDEN", "BÄUME", "FLUSS",
-                "WELLE", "NEBEL", "STEIN", "GRUBE", "ASTEN",
-                "BERGE", "HÖHLE", "EICHE", "RINDE", "SUMPF"
+        String[] techWorter = {
+                "KABEL", "MOUSE", "LASER", "CHIPS", "BYTES",
+                "LOGIN", "CLOUD", "ROUTY", "STROM",
+                "MODUS", "PIXEL", "CODES", "INPUT", "LOGIC",
+                "SERIE", "AKKUS", "DRUCK", "TOOLS", "FIBER",
+                "EMAIL", "LINUX", "MODUL", "DATEN", "RESET",
+                "PATCH"
         };
 
-        zufall = naturWorter[new Random().nextInt(naturWorter.length)];
+        zufall = techWorter[new Random().nextInt(techWorter.length)];
         buchstaben = zufall.toCharArray();
 
 
@@ -142,15 +145,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnPruefen = findViewById(R.id.btnPruefen);
         btnPruefen.setOnClickListener(this);
 
-
-        String[] techWorter = {
-                "KABEL", "MOUSE", "LASER", "CHIPS", "BYTES",
-                "LOGIN", "CLOUD", "ROUTY", "STROM",
-                "MODUS", "PIXEL", "CODES", "INPUT", "LOGIC",
-                "SERIE", "AKKUS", "DRUCK", "TOOLS", "FIBER",
-                "EMAIL", "LINUX", "MODUL", "DATEN", "RESET",
-                "PATCH"
-        };
+        
 
 
 
@@ -160,7 +155,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String input4 = ET4.getText().toString().toUpperCase();
         String input5 = ET5.getText().toString().toUpperCase();
 
-        // ET1
+        String input6 = ET6.getText().toString().toUpperCase();
+        String input7 = ET7.getText().toString().toUpperCase();
+        String input8 = ET8.getText().toString().toUpperCase();
+        String input9 = ET9.getText().toString().toUpperCase();
+        String input10 = ET10.getText().toString().toUpperCase();
+
+        String input11 = ET11.getText().toString().toUpperCase();
+        String input12 = ET12.getText().toString().toUpperCase();
+        String input13 = ET13.getText().toString().toUpperCase();
+        String input14 = ET14.getText().toString().toUpperCase();
+        String input15 = ET15.getText().toString().toUpperCase();
+
+        String input16 = ET16.getText().toString().toUpperCase();
+        String input17 = ET17.getText().toString().toUpperCase();
+        String input18 = ET18.getText().toString().toUpperCase();
+        String input19 = ET19.getText().toString().toUpperCase();
+        String input20 = ET20.getText().toString().toUpperCase();
+
+        String input21 = ET21.getText().toString().toUpperCase();
+        String input22 = ET22.getText().toString().toUpperCase();
+        String input23 = ET23.getText().toString().toUpperCase();
+        String input24 = ET24.getText().toString().toUpperCase();
+        String input25 = ET25.getText().toString().toUpperCase();
+
+        String input26 = ET26.getText().toString().toUpperCase();
+        String input27 = ET27.getText().toString().toUpperCase();
+        String input28 = ET28.getText().toString().toUpperCase();
+        String input29 = ET29.getText().toString().toUpperCase();
+        String input30 = ET30.getText().toString().toUpperCase();
+
+
+
+// ET1
         if (input1.equals(String.valueOf(buchstaben[0]))) {
             ET1.setBackgroundColor(Color.GREEN);
         } else if (
@@ -174,7 +201,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             ET1.setBackgroundColor(Color.RED);
         }
 
-        // ET2
+// ET2
         if (input2.equals(String.valueOf(buchstaben[1]))) {
             ET2.setBackgroundColor(Color.GREEN);
         } else if (
@@ -188,7 +215,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             ET2.setBackgroundColor(Color.RED);
         }
 
-        // ET3
+// ET3
         if (input3.equals(String.valueOf(buchstaben[2]))) {
             ET3.setBackgroundColor(Color.GREEN);
         } else if (
@@ -202,7 +229,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             ET3.setBackgroundColor(Color.RED);
         }
 
-        // ET4
+// ET4
         if (input4.equals(String.valueOf(buchstaben[3]))) {
             ET4.setBackgroundColor(Color.GREEN);
         } else if (
@@ -216,7 +243,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             ET4.setBackgroundColor(Color.RED);
         }
 
-        // ET5
+// ET5
         if (input5.equals(String.valueOf(buchstaben[4]))) {
             ET5.setBackgroundColor(Color.GREEN);
         } else if (
@@ -229,6 +256,356 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else {
             ET5.setBackgroundColor(Color.RED);
         }
+
+// ET6
+        if (input6.equals(String.valueOf(buchstaben[0]))) {
+            ET6.setBackgroundColor(Color.GREEN);
+        } else if (
+                input6.equals(String.valueOf(buchstaben[1])) ||
+                        input6.equals(String.valueOf(buchstaben[2])) ||
+                        input6.equals(String.valueOf(buchstaben[3])) ||
+                        input6.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET6.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET6.setBackgroundColor(Color.RED);
+        }
+
+// ET7
+        if (input7.equals(String.valueOf(buchstaben[1]))) {
+            ET7.setBackgroundColor(Color.GREEN);
+        } else if (
+                input7.equals(String.valueOf(buchstaben[0])) ||
+                        input7.equals(String.valueOf(buchstaben[2])) ||
+                        input7.equals(String.valueOf(buchstaben[3])) ||
+                        input7.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET7.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET7.setBackgroundColor(Color.RED);
+        }
+
+// ET8
+        if (input8.equals(String.valueOf(buchstaben[2]))) {
+            ET8.setBackgroundColor(Color.GREEN);
+        } else if (
+                input8.equals(String.valueOf(buchstaben[0])) ||
+                        input8.equals(String.valueOf(buchstaben[1])) ||
+                        input8.equals(String.valueOf(buchstaben[3])) ||
+                        input8.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET8.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET8.setBackgroundColor(Color.RED);
+        }
+
+// ET9
+        if (input9.equals(String.valueOf(buchstaben[3]))) {
+            ET9.setBackgroundColor(Color.GREEN);
+        } else if (
+                input9.equals(String.valueOf(buchstaben[0])) ||
+                        input9.equals(String.valueOf(buchstaben[1])) ||
+                        input9.equals(String.valueOf(buchstaben[2])) ||
+                        input9.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET9.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET9.setBackgroundColor(Color.RED);
+        }
+
+// ET10
+        if (input10.equals(String.valueOf(buchstaben[4]))) {
+            ET10.setBackgroundColor(Color.GREEN);
+        } else if (
+                input10.equals(String.valueOf(buchstaben[0])) ||
+                        input10.equals(String.valueOf(buchstaben[1])) ||
+                        input10.equals(String.valueOf(buchstaben[2])) ||
+                        input10.equals(String.valueOf(buchstaben[3]))
+        ) {
+            ET10.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET10.setBackgroundColor(Color.RED);
+        }
+
+// ET11
+        if (input11.equals(String.valueOf(buchstaben[0]))) {
+            ET11.setBackgroundColor(Color.GREEN);
+        } else if (
+                input11.equals(String.valueOf(buchstaben[1])) ||
+                        input11.equals(String.valueOf(buchstaben[2])) ||
+                        input11.equals(String.valueOf(buchstaben[3])) ||
+                        input11.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET11.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET11.setBackgroundColor(Color.RED);
+        }
+
+// ET12
+        if (input12.equals(String.valueOf(buchstaben[1]))) {
+            ET12.setBackgroundColor(Color.GREEN);
+        } else if (
+                input12.equals(String.valueOf(buchstaben[0])) ||
+                        input12.equals(String.valueOf(buchstaben[2])) ||
+                        input12.equals(String.valueOf(buchstaben[3])) ||
+                        input12.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET12.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET12.setBackgroundColor(Color.RED);
+        }
+
+// ET13
+        if (input13.equals(String.valueOf(buchstaben[2]))) {
+            ET13.setBackgroundColor(Color.GREEN);
+        } else if (
+                input13.equals(String.valueOf(buchstaben[0])) ||
+                        input13.equals(String.valueOf(buchstaben[1])) ||
+                        input13.equals(String.valueOf(buchstaben[3])) ||
+                        input13.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET13.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET13.setBackgroundColor(Color.RED);
+        }
+
+// ET14
+        if (input14.equals(String.valueOf(buchstaben[3]))) {
+            ET14.setBackgroundColor(Color.GREEN);
+        } else if (
+                input14.equals(String.valueOf(buchstaben[0])) ||
+                        input14.equals(String.valueOf(buchstaben[1])) ||
+                        input14.equals(String.valueOf(buchstaben[2])) ||
+                        input14.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET14.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET14.setBackgroundColor(Color.RED);
+        }
+
+// ET15
+        if (input15.equals(String.valueOf(buchstaben[4]))) {
+            ET15.setBackgroundColor(Color.GREEN);
+        } else if (
+                input15.equals(String.valueOf(buchstaben[0])) ||
+                        input15.equals(String.valueOf(buchstaben[1])) ||
+                        input15.equals(String.valueOf(buchstaben[2])) ||
+                        input15.equals(String.valueOf(buchstaben[3]))
+        ) {
+            ET15.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET15.setBackgroundColor(Color.RED);
+        }
+
+// ET16
+        if (input16.equals(String.valueOf(buchstaben[0]))) {
+            ET16.setBackgroundColor(Color.GREEN);
+        } else if (
+                input16.equals(String.valueOf(buchstaben[1])) ||
+                        input16.equals(String.valueOf(buchstaben[2])) ||
+                        input16.equals(String.valueOf(buchstaben[3])) ||
+                        input16.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET16.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET16.setBackgroundColor(Color.RED);
+        }
+
+// ET17
+        if (input17.equals(String.valueOf(buchstaben[1]))) {
+            ET17.setBackgroundColor(Color.GREEN);
+        } else if (
+                input17.equals(String.valueOf(buchstaben[0])) ||
+                        input17.equals(String.valueOf(buchstaben[2])) ||
+                        input17.equals(String.valueOf(buchstaben[3])) ||
+                        input17.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET17.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET17.setBackgroundColor(Color.RED);
+        }
+
+// ET18
+        if (input18.equals(String.valueOf(buchstaben[2]))) {
+            ET18.setBackgroundColor(Color.GREEN);
+        } else if (
+                input18.equals(String.valueOf(buchstaben[0])) ||
+                        input18.equals(String.valueOf(buchstaben[1])) ||
+                        input18.equals(String.valueOf(buchstaben[3])) ||
+                        input18.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET18.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET18.setBackgroundColor(Color.RED);
+        }
+
+// ET19
+        if (input19.equals(String.valueOf(buchstaben[3]))) {
+            ET19.setBackgroundColor(Color.GREEN);
+        } else if (
+                input19.equals(String.valueOf(buchstaben[0])) ||
+                        input19.equals(String.valueOf(buchstaben[1])) ||
+                        input19.equals(String.valueOf(buchstaben[2])) ||
+                        input19.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET19.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET19.setBackgroundColor(Color.RED);
+        }
+
+// ET20
+        if (input20.equals(String.valueOf(buchstaben[4]))) {
+            ET20.setBackgroundColor(Color.GREEN);
+        } else if (
+                input20.equals(String.valueOf(buchstaben[0])) ||
+                        input20.equals(String.valueOf(buchstaben[1])) ||
+                        input20.equals(String.valueOf(buchstaben[2])) ||
+                        input20.equals(String.valueOf(buchstaben[3]))
+        ) {
+            ET20.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET20.setBackgroundColor(Color.RED);
+        }
+
+        // ET21
+        if (input21.equals(String.valueOf(buchstaben[0]))) {
+            ET21.setBackgroundColor(Color.GREEN);
+        } else if (
+                input21.equals(String.valueOf(buchstaben[1])) ||
+                        input21.equals(String.valueOf(buchstaben[2])) ||
+                        input21.equals(String.valueOf(buchstaben[3])) ||
+                        input21.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET21.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET21.setBackgroundColor(Color.RED);
+        }
+
+// ET22
+        if (input22.equals(String.valueOf(buchstaben[1]))) {
+            ET22.setBackgroundColor(Color.GREEN);
+        } else if (
+                input22.equals(String.valueOf(buchstaben[0])) ||
+                        input22.equals(String.valueOf(buchstaben[2])) ||
+                        input22.equals(String.valueOf(buchstaben[3])) ||
+                        input22.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET22.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET22.setBackgroundColor(Color.RED);
+        }
+
+// ET23
+        if (input23.equals(String.valueOf(buchstaben[2]))) {
+            ET23.setBackgroundColor(Color.GREEN);
+        } else if (
+                input23.equals(String.valueOf(buchstaben[0])) ||
+                        input23.equals(String.valueOf(buchstaben[1])) ||
+                        input23.equals(String.valueOf(buchstaben[3])) ||
+                        input23.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET23.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET23.setBackgroundColor(Color.RED);
+        }
+
+// ET24
+        if (input24.equals(String.valueOf(buchstaben[3]))) {
+            ET24.setBackgroundColor(Color.GREEN);
+        } else if (
+                input24.equals(String.valueOf(buchstaben[0])) ||
+                        input24.equals(String.valueOf(buchstaben[1])) ||
+                        input24.equals(String.valueOf(buchstaben[2])) ||
+                        input24.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET24.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET24.setBackgroundColor(Color.RED);
+        }
+
+// ET25
+        if (input25.equals(String.valueOf(buchstaben[4]))) {
+            ET25.setBackgroundColor(Color.GREEN);
+        } else if (
+                input25.equals(String.valueOf(buchstaben[0])) ||
+                        input25.equals(String.valueOf(buchstaben[1])) ||
+                        input25.equals(String.valueOf(buchstaben[2])) ||
+                        input25.equals(String.valueOf(buchstaben[3]))
+        ) {
+            ET25.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET25.setBackgroundColor(Color.RED);
+        }
+// ET26
+        if (input26.equals(String.valueOf(buchstaben[0]))) {
+            ET26.setBackgroundColor(Color.GREEN);
+        } else if (
+                input26.equals(String.valueOf(buchstaben[1])) ||
+                        input26.equals(String.valueOf(buchstaben[2])) ||
+                        input26.equals(String.valueOf(buchstaben[3])) ||
+                        input26.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET26.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET26.setBackgroundColor(Color.RED);
+        }
+
+// ET27
+        if (input27.equals(String.valueOf(buchstaben[1]))) {
+            ET27.setBackgroundColor(Color.GREEN);
+        } else if (
+                input27.equals(String.valueOf(buchstaben[0])) ||
+                        input27.equals(String.valueOf(buchstaben[2])) ||
+                        input27.equals(String.valueOf(buchstaben[3])) ||
+                        input27.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET27.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET27.setBackgroundColor(Color.RED);
+        }
+
+// ET28
+        if (input28.equals(String.valueOf(buchstaben[2]))) {
+            ET28.setBackgroundColor(Color.GREEN);
+        } else if (
+                input28.equals(String.valueOf(buchstaben[0])) ||
+                        input28.equals(String.valueOf(buchstaben[1])) ||
+                        input28.equals(String.valueOf(buchstaben[3])) ||
+                        input28.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET28.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET28.setBackgroundColor(Color.RED);
+        }
+
+// ET29
+        if (input29.equals(String.valueOf(buchstaben[3]))) {
+            ET29.setBackgroundColor(Color.GREEN);
+        } else if (
+                input29.equals(String.valueOf(buchstaben[0])) ||
+                        input29.equals(String.valueOf(buchstaben[1])) ||
+                        input29.equals(String.valueOf(buchstaben[2])) ||
+                        input29.equals(String.valueOf(buchstaben[4]))
+        ) {
+            ET29.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET29.setBackgroundColor(Color.RED);
+        }
+
+// ET30
+        if (input30.equals(String.valueOf(buchstaben[4]))) {
+            ET30.setBackgroundColor(Color.GREEN);
+        } else if (
+                input30.equals(String.valueOf(buchstaben[0])) ||
+                        input30.equals(String.valueOf(buchstaben[1])) ||
+                        input30.equals(String.valueOf(buchstaben[2])) ||
+                        input30.equals(String.valueOf(buchstaben[3]))
+        ) {
+            ET30.setBackgroundColor(Color.YELLOW);
+        } else {
+            ET30.setBackgroundColor(Color.RED);
+        }
+
 
 
 
